@@ -1,0 +1,78 @@
+body{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    background-image: linear-gradient( 120deg, rgba(58, 58, 158, 0.8), rgba(136, 136, 206, 0.7) ),url(https://images.unsplash.com/photo-1461749280684-dccba630e2f6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=869&q=80);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+h1, #description{ 
+    margin: 1em auto;
+    text-align: center;
+    color: white;
+    font-size: 35px ;
+}
+
+form{
+    background-color: #799bc2b2;
+    width: 60vw;
+    max-width: 1000px;
+    min-width: 300px;
+    margin: 0 auto;
+    padding-bottom: 2em;
+    font-size: large;
+    font-family: sans-serif;
+    border-radius: 2%;
+}
+
+fieldset{
+    border: none;
+    padding: 2rem 1rem;
+    border-bottom: 3px solid rgba(58, 58, 158, 0.8);
+    
+}
+
+fieldset:last-of-type {
+    border-bottom: none;
+  }
+
+label {
+    display: block;
+    margin: 0.5rem 0;
+}
+
+textarea,#name,#email,#number {
+    margin: 10px 0 0 0;
+    width: 100%;
+    min-height: 2em;
+    
+
+    
+}
+
+input, textarea {
+    background-color: #1b1b49;
+    border: 1px solid #0a0a23;
+    color: #ffffff;
+    
+}
+
+  .inline {
+    width: unset;
+    margin: 0 0.5em 0 0;
+    vertical-align: middle;
+}
+
+input[type="submit"] {
+    display: block;
+    width: 30%;
+    margin: 1em auto;
+    height: 2em;
+    font-size: 1.1rem;
+    background-color: #3b3b4f;
+    border-color: white;
+    min-width: 300px;
+    
+}
